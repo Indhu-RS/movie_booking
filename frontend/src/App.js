@@ -10,7 +10,8 @@ import ViewMovie from './movies/ViewMovie';
 import BookMovie from './movies/BookMovie';
 import Login from './pages/Login';
 import Register from './pages/Register';
- 
+import Vendor from './Stalls/FoodVendorPage';
+import Menu from './Stalls/FoodVendorMenu';
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,8 @@ function App() {
           <Route exact path = "/viewmovie/:id" element = {<ViewMovie/>} />
           <Route exact path = "/bookmovie/:id" element = {<BookMovie/>} />
           <Route exact path = "/register" element = {<Register/>}/>
+          <Route exact path= "/foodvendor" element={<Vendor/>}/>
+          <Route exact path="/menu/:id" element={<Menu />} />
         </Routes>
       </Router>
       

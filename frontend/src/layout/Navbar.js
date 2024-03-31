@@ -23,7 +23,7 @@ export default function Navbar() {
                                 <Link className="nav-link active" aria-current="page" to='/viewMovies'>Showtimes</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Venues</a>
+                            <Link className="nav-link active" aria-current="page" to='/foodvendor'>Stalls</Link>
                             </li>
                             {/* <li className="nav-item">
                                 <a className="nav-link disabled" aria-disabled="true">Food Options</a>
